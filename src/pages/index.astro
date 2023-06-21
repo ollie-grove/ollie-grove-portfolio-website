@@ -10,18 +10,19 @@ import ContentMedia from '../components/ContentMedia.astro'
   <Hero />
   <section class="my-64">
     <div class="container">
-      <h2 class="mb-16 text-6xl">Projects</h2>
+      <h2 class="mb-16 text-6xl">Coding Projects</h2>
       <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
         
-        <Feature icon="mdi:looks" title="Unplugged Retreat">
-          <img src="/unplugged-desktop.png" alt="screenshot of unplugged retreat project" loading="lazy"/>
-          Less worry about formatting your code, let the Astro Prettier integration do the heavy lifting.
-          
+        <Feature icon="mdi:language-html5" icon="mdi:language-css3" title="Unplugged Retreat">
+          <a href="https://ollie-grove.github.io/unplugged-retreat-2020/" target="_blank"><img src="/unplugged-desktop.png" alt="screenshot of unplugged retreat project" loading="lazy"/></a> 
+          3-page responsive webiste coded from a PhotoShop design comp. Features a Google Maps integration. <br>
+          HTML/CSS.
+                   
         </Feature>
         
         <Feature icon="mdi:cellphone-link" title="Github Repo Gallery">
-          <img src="/github-desktop.png" alt="screenshot of github repo gallery project" loading="lazy"/>
-          17 components and counting, all tried and tested for the most optimal accessible experience for your visitors.
+          <a href="https://ollie-grove.github.io/github-repo-gallery/" target="_blank"><img src="/github-desktop.png" alt="screenshot of github repo gallery project" loading="lazy"/></a>
+          This website pulls my repo data from GitHub to create a gallery of completed projects. You can click on each repo to see more details.
         </Feature>
         <Feature icon="mdi:looks" title="Sticky Notes App">
           <img src="/sticky-desktop.png" alt="screenshot of unplugged retreat project" loading="lazy"/>
@@ -35,10 +36,24 @@ import ContentMedia from '../components/ContentMedia.astro'
           <img src="/rogue-desktop.png" alt="screenshot of unplugged retreat project" loading="lazy"/>
           This theme comes with a fully integrated blog, dynamic pages and SEO optimization.
         </Feature>
-        
+
         
       </div>
+
     </div>
+    
+  </section>
+
+  <section class="my-64">
+    <div class="container">
+      <h2 class="mb-16 text-6xl">Design Projects</h2>
+        <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+          <Feature icon="mdi:looks" title="Unplugged Retreat">
+            <a href="https://ollie-grove.github.io/unplugged-retreat-2020/" target="_blank"><img src="/unplugged-desktop.png" alt="screenshot of unplugged retreat project" loading="lazy"/>
+            3-page responsive webiste coded from a PhotoShop design comp. Features a Google Maps integration.</a>  
+            <a href="https://ollie-grove.github.io/unplugged-retreat-2020/">Live Site</a>         
+          </Feature>
+        </div>
   </section>
   <ContentMedia imgSrc="/unplugged-desktop.png">
     <h2>Accessible Components</h2>
